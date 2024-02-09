@@ -1,1 +1,37 @@
-THINK before you code...
+1. import scanner
+2. make a new scanner
+3. ask the user for package type
+4. use scanner to make it a string
+5. ask user for how much data used
+6. use scanner to make it a double
+7. initialize double price as 0
+8. initialize double data_limit as 0
+9. initialize double price_extra as 0
+10. initialize boolean couponApplied to false
+11. if the package is purple
+  a. price is 99.95
+12. otherwise if its blue
+  a. price is 70
+  b. data limit is 4
+  c. price extra is 10
+13. otherwise, if package is green
+  a. ask if they have a coupon
+  b. make the coupon lowercase
+  c. if they have a coupon
+    i. make couponApplied true
+  d. otherwise if coupon is no
+    i. couponApplied is false;
+  e. otherwise
+    i. print "invalid choice";
+  f. make price 49.99
+  g. data_limit is 2
+  h. price_extra is 15
+  i. otherwise
+  j. print invalid package name
+  k. make valid equals to true
+  l. if valid
+    i. if data used is more than data limit
+      - add data used minus data limit multiplied by price extra to price
+       - if package is green and couponApplied and price is greaterthan or equals to 75
+        ~ price - 20 is equals to price
+    ii. print out how much the user owes
